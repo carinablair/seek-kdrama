@@ -1,14 +1,9 @@
 import React from 'react';
 import Thumbnail from './Thumbnail';
-import './DramaRow.css';
+import Drama from '../model/Drama';
 
 export interface DramaRowProps {
     dramas: Drama[];
-}
-
-export interface Drama {
-    imageUrl: string;
-    title: string;
 }
 
 export const DramaRow: React.FC<DramaRowProps> = (props) => {
