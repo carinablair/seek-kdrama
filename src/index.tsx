@@ -4,9 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+class Main extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <h1 className="title"> Seek Kdrama</h1>
+      </div>
+    );
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
