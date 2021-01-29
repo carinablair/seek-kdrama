@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import DramaSearch from './components/DramaSearch';
 import reportWebVitals from './reportWebVitals';
 
 class Main extends React.Component {
@@ -9,6 +9,7 @@ class Main extends React.Component {
     return (
       <div className="container">
         <h1 className="title"> Seek Kdrama</h1>
+        <DramaSearch />
       </div>
     );
   }
